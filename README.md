@@ -1,191 +1,140 @@
-# [Black Dashboard React](https://demos.creative-tim.com/black-dashboard-react/#/dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fblack-dashboard-react%2F%23%2Fadmin%2Fdashboard&text=Black%20Dashboard%20React%20by%20Creative%20Tim%20%7C%20Free%20React%20Admin%20Template&original_referer=https%3A%2F%2Fdemos.creative-tim.com%2Fblack-dashboard-react%2F&via=creativetim&hashtags=react%2Ccreativetim%2Cdark%2Cdashboard%2Cbootstrap%2Creactstrap%2Creactjs)
+# Free React landing page template
 
+![Open React template preview](https://user-images.githubusercontent.com/2683512/78789364-545e7100-79ad-11ea-9e3c-9528c99cda8e.png)
 
+**Open** is a **free React landing page template designed** for developers/makers who want to create a quick and professional landing page for their open source projects, SaaS products, online services, and more.
 
-![version](https://img.shields.io/badge/version-1.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/black-dashboard-react.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/black-dashboard-react.svg?maxAge=2592000)]()  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
 
-![Product Gif](./github-assets/black-dashboard-react.gif)
+Created and maintained with ❤️ by [Cruip.com](https://cruip.com).
 
+## Live demo
 
-Black Dashboard React is a beautiful [Bootstrap 4](http://getbootstrap.com/), [Reacstrap](https://reactstrap.github.io/) and [React](https://reactjs.org/) ([create-react-app](https://github.com/facebook/create-react-app)) Admin Dashboard with a huge number of components built to fit together and look amazing. If you are looking for a tool to manage and visualize data about your business, this dashboard is the thing for you. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics.
-Black Dashboard React comes packed with all plugins that you might need inside a project and documentation on how to get started. It is light and easy to use, and also very powerful.
+Check the live demo here 👉️ [https://open.cruip.com/](https://open.cruip.com/)
 
-Black Dashboard React features over 16 individual components, giving you the freedom of choosing and combining. This means that there are thousands of possible combinations. All components can take variations in color, that you can easily modify using SASS files. You will save a lot of time going from prototyping to full-functional code because all elements are implemented.
-We thought about everything, so this dashboard comes with 2 versions, Dark Mode and Light Mode.
+## Open PRO
 
-Special thanks go for the owners of these plugins:
-- [Perfect Scrollbar](http://utatti.github.io/perfect-scrollbar/) for the nice scrollbars for windows.
-- [React Chartjs](http://jerairrest.github.io/react-chartjs-2/) for the wonderful wrapper for charts.
-- [Chartjs](https://www.chartjs.org/) for the wonderful charts.
+Looking for more pages and components? Have a look at the **premium version** here 👉️ [https://cruip.com/demos/open-pro/](https://cruip.com/demos/open-pro/)
 
-We are very excited to share this dashboard with you and we look forward to hearing your feedback!
+*The premium template is built on-the-top of [Tailwind CSS](https://tailwindcss.com/), and React components have been re-built from scratch.* 
 
-**Example Pages** We wanted to fully display the power of this dashboard, so the kit comes packed with examples showing you how to use the components.
+## Table of contents
 
-## Table of Contents
+* [Usage](#usage)
+  * [Available Scripts](#available-scripts)
+    * [npm start](#npm-start)
+    * [npm test](#npm-test)
+    * [npm run build](#npm-run-build)
+    * [npm run eject](#npm-run-eject)
+  * [Learn More](#learn-more)
+    * [Code Splitting](#code-splitting)
+    * [Analyzing the Bundle Size](#analyzing-the-bundle-size)
+    * [Making a Progressive Web App](#making-a-progressive-web-app)
+    * [Advanced Configuration](#advanced-configuration)
+    * [Deployment](#deployment)
+    * [npm run build fails to minify](#npm-run-build-fails-to-minify)
+  * [Google Analytics Setup](#google-analytics-setup)
+* [Credits](#credits)
+* [Terms and License](#terms-and-license)
+* [About Us](#about-us)
+* [Stay in the loop](#stay-in-the-loop)
 
-* [Versions](#versions)
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
+## Usage
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Versions
+### Available Scripts
 
-[<img src="./github-assets/html.png" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard)
-[<img src="./github-assets/react.svg" width="60" height="60" />](https://www.creative-tim.com/product/black-dashboard-react)[<img src="./github-assets/vuejs.png" width="60" height="60" />](https://www.creative-tim.com/product/vue-black-dashboard)
+In the project directory, you can run:
 
+#### `npm install`
+To install the dependencies package.
 
-| HTML | React | Vue |
-| --- | --- | --- |
-| [![Black Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/93/thumb/opt_bd_thumbnail.jpg)](https://www.creative-tim.com/product/black-dashboard) | [![Black Dashboard React](https://s3.amazonaws.com/creativetim_bucket/products/136/thumb/opt_bd_react.jpg)](https://www.creative-tim.com/product/black-dashboard-react) | [![Vue Black Dashboard](https://s3.amazonaws.com/creativetim_bucket/products/99/thumb/opt_bd_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-black-dashboard) |
+#### `npm start`
 
-## Demo
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-| Dashboard | User Profile | Tables | Maps | Notification |
-| --- | --- | --- | --- | --- |
-| [![Start page](./github-assets/dashboard-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/dashboard) | [![User profile page](./github-assets/user-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/user-page) | [![Tables page ](./github-assets/table-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/table-list) | [![Maps Page](./github-assets/maps-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/maps) | [![Notification page](./github-assets/notifications-page.png)](https://demos.creative-tim.com/black-dashboard-react/#/notifications)
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-[View More](https://demos.creative-tim.com/black-dashboard-react/#/dashboard).
+#### `npm test`
 
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Quick start
+#### `npm run build`
 
-Quick start options:
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Clone the repo: `git clone https://github.com/creativetimofficial/black-dashboard-react.git`.
-- [Download from Github](https://github.com/creativetimofficial/black-dashboard-react/archive/master.zip).
-- [Download from Creative Tim](https://www.creative-tim.com/product/black-dashboard-react).
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Documentation
-The documentation for the Black Dashboard React is hosted at our [website](https://demos.creative-tim.com/black-dashboard-react/#/documentation/tutorial).
+#### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## File Structure
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Within the download you'll find the following directories and files:
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-```
-black-dashboard-react
-.
-├── package.json
-├── CHANGELOG.md
-├── ISSUE_TEMPLATE.md
-├── LICENSE.md
-├── README.md
-├── Documentation
-│   └── documentation.html
-├── github-assets
-│   └── react.svg
-├── public
-│   ├── index.html
-│   └── manifest.json
-└── src
-    ├── index.js
-    ├── logo-white.svg
-    ├── logo.svg
-    ├── routes.js
-    ├── assets
-    │   ├── css
-    │   ├── demo
-    │   ├── fonts
-    │   ├── img
-    │   └── scss
-    │       ├── black-dashboard
-    │       │   ├── bootstrap
-    │       │   │   ├── mixins
-    │       │   │   └── utilities
-    │       │   ├── custom
-    │       │   │   ├── cards
-    │       │   │   ├── mixins
-    │       │   │   ├── utilities
-    │       │   │   └── vendor
-    │       └── black-dashboard.scss
-    ├── components
-    │   ├── FixedPlugin
-    │   │   └── FixedPlugin.js
-    │   ├── Footer
-    │   │   └── Footer.js
-    │   ├── Navbars
-    │   │   ├── AdminNavbar.js
-    │   │   └── RTLNavbar.js
-    │   └── Sidebar
-    │       └── Sidebar.js
-    ├── layouts
-    │   ├── Admin
-    │   │   └── Admin.js
-    │   └── RTL
-    │       └── RTL.js
-    ├── variables
-    │   └── charts.js
-    └── views
-        ├── Dashboard.js
-        ├── Icons.js
-        ├── Map.js
-        ├── Notifications.js
-        ├── Rtl.js
-        ├── TableList.js
-        ├── Typography.js
-        └── UserProfile.js
-```
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Browser Support
+### Learn More
 
-At present, we officially aim to support the last two versions of the following browsers:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+#### Code Splitting
 
-## Resources
-- Demo: https://demos.creative-tim.com/black-dashboard-react/#/dashboard
-- Download Page: https://www.creative-tim.com/product/black-dashboard-react
-- Documentation: https://demos.creative-tim.com/black-dashboard-react/#/documentation/tutorial
-- License Agreement: https://www.creative-tim.com/license
-- Support: https://www.creative-tim.com/contact-us
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/black-dashboard-react/issues)
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-## Reporting Issues
-We use GitHub Issues as the official bug tracker for the Black Dashboard React. Here are some advices for our users that want to report an issue:
+#### Analyzing the Bundle Size
 
-1. Make sure that you are using the latest version of the Black Dashboard React. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-## Technical Support or Questions
+#### Making a Progressive Web App
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us) instead of opening an issue.
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-## Licensing
+#### Advanced Configuration
 
-- Copyright 2018 Creative Tim (https://www.creative-tim.com)
-- Licensed under MIT (https://github.com/creativetimofficial/black-dashboard-react/blob/master/LICENSE.md)
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-## Useful Links
+#### Deployment
 
-More products from Creative Tim: <https://www.creative-tim.com/products>
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
+#### `npm run build` fails to minify
 
-Freebies: <https://www.creative-tim.com/products>
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-Affiliate Program (earn money): <https://www.creative-tim.com/affiliates/new>
+### Google Analytics Setup
 
-Social Media:
+This template uses the [React Google Analytics Module](https://github.com/react-ga/react-ga).
 
-Twitter: <https://twitter.com/CreativeTim>
+In order to track visitors, you need to set an [environment variable](https://create-react-app.dev/docs/adding-custom-environment-variables/) called `REACT_APP_GA_CODE` storing your [GA Tracking ID](https://support.google.com/analytics/answer/7372977).
 
-Facebook: <https://www.facebook.com/CreativeTim>
+## Credits
 
-Dribbble: <https://dribbble.com/creativetim>
+- [Nucleo](https://nucleoapp.com/)
+- [Unsplash](https://unsplash.com/)
 
-Google+: <https://plus.google.com/+CreativetimPage>
+## Terms and License
 
-Instagram: <https://instagram.com/creativetimofficial>
+- Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
+- Copyright 2020 [Cruip](https://cruip.com/).
+- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
+- Attribution is not required, although it is really appreciated.
+
+## About Us
+
+We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
+
+## Stay in the loop
+
+If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
