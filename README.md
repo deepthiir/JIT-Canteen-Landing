@@ -1,6 +1,6 @@
 # Institution Management System
 This is a project which is being done towards the submission of our course work in Web Technologies & Applications
-
+This Project is being done using MERN Stack
 ## Usage
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
