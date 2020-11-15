@@ -1,4 +1,5 @@
 # Institution Management System
+This is a project which is being done towards the submission of our course work in Web Technologies & Applications
 
 ## Usage
 
