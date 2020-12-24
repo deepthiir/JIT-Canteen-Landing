@@ -24,12 +24,12 @@ const FooterNav = ({
         <li>
           <Link to="#0">About us</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="#0">FAQ's</Link>
         </li>
         <li>
           <Link to="#0">Support</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
