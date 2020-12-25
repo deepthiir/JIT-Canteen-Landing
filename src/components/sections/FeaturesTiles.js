@@ -48,7 +48,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: '  Bon Appétit ',
-    paragraph: '\"Nothing Brings People Together Like Good Food\"'
+    paragraph: '"Nothing Brings People Together Like Good Food"'
   };
 
   return (
