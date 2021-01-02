@@ -76,9 +76,9 @@ const FeaturesTiles = ({
                   <h4 className="mt-0 mb-8">
                     Easier To Track & <br/> Update Orders
                   </h4>
-                  <p className="m-0 text-sm">
+                  {/* <p className="m-0 text-sm">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -98,9 +98,9 @@ const FeaturesTiles = ({
                   <h4 className="mt-0 mb-8">
                     Robust <br /> Workflow
                     </h4>
-                  <p className="m-0 text-sm">
+                  {/* <p className="m-0 text-sm">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -121,9 +121,9 @@ const FeaturesTiles = ({
                   <h4 className="mt-0 mb-8">
                     Cost-Effective <br/>Automating Solution  
                   </h4>
-                  <p className="m-0 text-sm">
+                  {/* <p className="m-0 text-sm">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                  </p> */}
                 </div>
               </div>
             </div>          

@@ -15,9 +15,13 @@ import './assets/scss/style.scss';
 const history = createBrowserHistory();
 
 ReactDOM.render(
-  <Router history={history}>
-    <App />
-  </Router>,
+  <React.StrictMode>
+    <React.Fragment>
+    <Router history={history}>
+      <App />
+    </Router>
+    </React.Fragment>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
