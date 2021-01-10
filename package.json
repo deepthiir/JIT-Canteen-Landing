@@ -4,8 +4,9 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
+    "firebase": "^8.2.2",
     "lodash": "^4.17.20",
-    "mdbreact": "^5.0.1",
+    "mdbreact": "git+https://oauth2:iRJAbqZk6eSbSyxqWSDP@git.mdbootstrap.com/mdb/react/re-pro.git",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
