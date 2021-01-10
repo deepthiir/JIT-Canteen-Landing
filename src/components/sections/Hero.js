@@ -67,15 +67,16 @@ const Hero = ({
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
               Canteen Management Application is designed for the activities of the canteen and to maintain a detailed account of food served as well as the transactions and help management to handle users.
-                </p>
+              </p>
+              <br />
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Sign In
+                    Admin-GitHub
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
-                    </Button>
+                    Canteen-GitHub
+                  </Button>
                 </ButtonGroup>
               </div>
             </div>
