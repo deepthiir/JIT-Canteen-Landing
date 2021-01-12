@@ -7,8 +7,8 @@ import {
   MDBCardUp,
   MDBAvatar,
   MDBCardBody,
-  MDBIcon,
 } from "mdbreact";
+import "./ProjectTeam.css";
 
 const ProjectTeam = () => {
   return (
@@ -26,19 +26,24 @@ const ProjectTeam = () => {
               <MDBCardUp color="info" />
               <MDBAvatar className="mx-auto white">
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
+                  src="https://media-exp1.licdn.com/dms/image/C5603AQEEdTpFogW3iw/profile-displayphoto-shrink_800_800/0/1603987884492?e=1616025600&v=beta&t=BOAU65jG0OXsIcpvYVIqVePuVg0JeI1cFbOETwmrHIo"
                   alt=""
                   className="rounded-circle img-fluid"
                 />
               </MDBAvatar>
               <MDBCardBody>
-                <h4 className="font-weight-bold mb-4">John Doe</h4>
+                <h4 className="font-weight-bold mb-4 adi">Adithya Krishna</h4>
                 <hr />
-                <p className="dark-grey-text mt-4">
+                {/* <p className="dark-grey-text mt-4">
                   <MDBIcon icon="quote-left" className="pr-2" />
                   Lorem ipsum dolor sit amet eos adipisci, consectetur
                   adipisicing elit.
-                </p>
+                </p> */}
+                <a href="https://instagram.com/adiiikris" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram icon-color" /></a>
+                <br />
+                <a href="https://instagram.com/adiiikris"><i className="fab fa-instagram icon-color" /></a>
+                <br />
+                <a href="https://instagram.com/adiiikris"><i className="fab fa-instagram icon-color" /></a>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -47,19 +52,24 @@ const ProjectTeam = () => {
               <MDBCardUp gradient="blue" />
               <MDBAvatar className="mx-auto white">
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
+                  src="https://avatars0.githubusercontent.com/u/57286987?s=400&u=96026da6da2c61598fd98e328840e2c773373f1d&v=4"
                   alt=""
                   className="rounded-circle img-fluid"
                 />
               </MDBAvatar>
               <MDBCardBody>
-                <h4 className="font-weight-bold mb-4">Anna Aston</h4>
+                <h4 className="font-weight-bold mb-4 nivi">Niveditha P</h4>
                 <hr />
-                <p className="dark-grey-text mt-4">
+                {/* <p className="dark-grey-text mt-4">
                   <i className="fa fa-quote-left pr-2" />
                   Neque cupiditate assumenda in maiores repudiandae mollitia
                   architecto.
-                </p>
+                </p> */}
+                <a href="https://instagram.com/nivedaparam"><i className="fab fa-instagram icon-color" /></a>
+                <br />
+                <a href="https://instagram.com/nivedaparam"><i className="fab fa-instagram icon-color" /></a>
+                <br />
+                <a href="https://instagram.com/nivedaparam"><i className="fab fa-instagram icon-color" /></a>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -68,19 +78,24 @@ const ProjectTeam = () => {
               <MDBCardUp className="indigo" />
               <MDBAvatar className="mx-auto white">
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
+                  src="https://avatars3.githubusercontent.com/u/57286973?s=400&u=2348818408b67d962be0879638ebc2f9f21d59e9&v=4"
                   alt=""
                   className="rounded-circle img-fluid"
                 />
               </MDBAvatar>
               <MDBCardBody>
-                <h4 className="font-weight-bold mb-4">Maria Kate</h4>
+                <h4 className="font-weight-bold mb-4 deep">Deepthi R</h4>
                 <hr />
-                <p className="dark-grey-text mt-4">
+                {/* <p className="dark-grey-text mt-4">
                   <i className="fa fa-quote-left pr-2" />
                   Delectus impedit saepe officiis ab aliquam repellat rem unde
                   ducimus.
-                </p>
+                </p> */}
+                <a href="https://instagram.com/deepthir_164"><i className="fab fa-instagram icon-color" /></a>
+                <br />
+                <a href="https://instagram.com/deepthir_164"><i className="fab fa-instagram icon-color" /></a>
+                <br />
+                <a href="https://instagram.com/deepthir_164"><i className="fab fa-instagram icon-color" /></a>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>

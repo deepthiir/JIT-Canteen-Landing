@@ -24,9 +24,7 @@ const CarouselPage = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src=" https://im.hunt.in/local/Gallery/2997011/l/2997011_96b3b.jpg"
-                width="1600px"
-                max_height="10px"
+                src="https://cdn.pixabay.com/photo/2019/07/17/11/02/neon-sign-4343663_1280.jpg"
                 alt="First slide"
               />
               <MDBMask overlay="black-light" />

@@ -7,7 +7,6 @@ import {
   MDBMask,
   MDBIcon,
   MDBView,
-  MDBBtn,
 } from "mdbreact";
 import "./BlogSection.css";
 
@@ -45,21 +44,18 @@ const BlogSection = () => {
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">
-              <strong>Title of the news</strong>
+              <strong>Don't waste food!!Food is God!!</strong>
             </h3>
             <p>
-              Nam libero tempore, cum soluta nobis est eligendi optio cumque
-              nihil impedit quo minus id quod maxime placeat facere possimus,
-              omnis voluptas assumenda est, omnis dolor repellendus et aut
-              officiis debitis.
+            Food maintains or nourishes body, for body is annamaya kosha, food-based cell, and so Food should be looked upon with reverence as ‘Gift of God’, just like fresh air and water, and it should not be wasted at all.
             </p>
-            <p>
+              {/* <p>
               by
               <a href="#!">
                 <strong>Carine Fox</strong>
               </a>
-              , 19/08/2018
-            </p>
+              
+            </p> */}
             {/* <MDBBtn color="success" size="md" className="waves-light ">
                             Read more
                         </MDBBtn> */}
@@ -75,20 +71,16 @@ const BlogSection = () => {
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">
-              <strong>Title of the news</strong>
+              <strong>Hygiene</strong>
             </h3>
             <p>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti quos
-              dolores et quas molestias excepturi sint occaecati cupiditate non
-              provident.
+            Cleaniness and order are not matter of instict; they are matters of education,and like most great things, you muxt cultivate a taste for them.
             </p>
             <p>
               by
               <a href="#!">
-                <strong>Carine Fox</strong>
+                <strong>Benjamin Disraeli</strong>
               </a>
-              , 14/08/2018
             </p>
             {/* <MDBBtn
                             color="pink"
@@ -102,7 +94,7 @@ const BlogSection = () => {
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
-                src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg"
+                src="https://cdn.pixabay.com/photo/2016/02/19/10/18/chef-1209161_1280.jpg"
                 alt=""
               />
               <a href="#!">
@@ -117,7 +109,7 @@ const BlogSection = () => {
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
-                src="https://mdbootstrap.com/img/Photos/Others/img (28).jpg"
+                src="https://cdn.pixabay.com/photo/2015/01/14/15/47/tea-599227_1280.jpg"
                 alt=""
               />
               <a href="#!">
@@ -133,21 +125,18 @@ const BlogSection = () => {
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">
-              <strong>Title of the news</strong>
+              <strong>Wellness</strong>
             </h3>
             <p>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia sit
-              amet.
+            The higher your energy level, the more efficient your body. The more efficient your body, the better you feel and the more you will use your talent to produce outstanding results.
             </p>
-            <p>
+            {/* <p>
               by
               <a href="#!">
                 <strong>Carine Fox</strong>
               </a>
               , 11/08/2018
-            </p>
+            </p> */}
             {/* <MDBBtn color="indigo" size="md" className="waves-light ">
                             Read more
             </MDBBtn> */}
