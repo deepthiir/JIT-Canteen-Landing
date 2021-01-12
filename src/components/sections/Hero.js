@@ -5,7 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
-import VidBgnd from '../../assets/images/video-placeholderr.jpg';
+import VidBgnd from '../../assets/images/video-placeholder.png';
 
 const propTypes = {
   ...SectionProps.types
@@ -71,10 +71,10 @@ const Hero = ({
               <br />
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                  <Button tag="a" color="dark" wideMobile href="https://github.com/adithyaakrishna/JIT-Canteen-Admin">
                     Admin-GitHub
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                  <Button tag="a" color="dark" wideMobile href="https://github.com/deepthiir/JIT-Learning-Admin/">
                     Canteen-GitHub
                   </Button>
                 </ButtonGroup>

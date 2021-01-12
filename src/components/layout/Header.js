@@ -121,7 +121,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Canteen-Admin</Link>
+                      <a href="https://jit-canteen-admin.netlify.app/#/login">Canteen-Admin</a>
                     </li>
                   </ul>
                   {!hideSignin &&

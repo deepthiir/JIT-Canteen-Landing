@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ShoppingCart from '../../components/sections/ShoppingCart/ShoppingCart';
 import FooterX from '../../components/elements/Navs/Footer';
 import HeaderX from '../../components/elements/Navs/Header';
 import './CartPage.css';
