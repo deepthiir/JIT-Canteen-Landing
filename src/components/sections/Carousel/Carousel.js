@@ -24,42 +24,45 @@ const CarouselPage = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                src=" https://im.hunt.in/local/Gallery/2997011/l/2997011_96b3b.jpg"
+                width="1600px"
+                max_height="10px"
                 alt="First slide"
               />
               <MDBMask overlay="black-light" />
             </MDBView>
             <MDBCarouselCaption>
-              <h3 className="h3-responsive">Light mask</h3>
-              <p>First text</p>
+              {/* <h3 className="h3-responsive">Eat Up!!!</h3> */}
+              {/* <p>First text</p> */}
             </MDBCarouselCaption>
           </MDBCarouselItem>
           <MDBCarouselItem itemId="2">
             <MDBView>
+           
               <img
                 className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+                src="https://miro.medium.com/max/1200/1*cJUlUCYlZH2acP10Qf5ONA.jpeg"
                 alt="Second slide"
               />
-              <MDBMask overlay="black-strong" />
+              <MDBMask overlay="black-light" />
             </MDBView>
             <MDBCarouselCaption>
-              <h3 className="h3-responsive">Strong mask</h3>
-              <p>Second text</p>
+              {/* <h3 className="h3-responsive">Hygiene</h3> */}
+              {/* <p>Second text</p> */}
             </MDBCarouselCaption>
           </MDBCarouselItem>
           <MDBCarouselItem itemId="3">
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+                src="https://media4.s-nbcnews.com/i/newscms/2019_30/1463662/healthy-road-trip-snacks-today-main-190723_e669d663d47979737757f65cfab89224.jpg"
                 alt="Third slide"
               />
               <MDBMask overlay="black-slight" />
             </MDBView>
             <MDBCarouselCaption>
-              <h3 className="h3-responsive">Slight Mast</h3>
-              <p>Third text</p>
+              {/* <h3 className="h3-responsive">Cafeteria</h3> */}
+              {/* <p>Third text</p> */}
             </MDBCarouselCaption>
           </MDBCarouselItem>
         </MDBCarouselInner>
