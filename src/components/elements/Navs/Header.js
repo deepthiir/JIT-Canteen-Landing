@@ -3,7 +3,7 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNav
   MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon, MDBAvatar, MDBFormInline } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 import { auth } from '../../../services/firebase';
-import Logo from '../../layout/partials/Logo';
+// import Logo from '../../layout/partials/Logo';
 import Image from '../../elements/Image';
 import LogoSvg from '../../../assets/images/logo.svg';
 import Header from "../../layout/Header";
@@ -22,15 +22,11 @@ render() {
   return (
     <Router>
       <MDBNavbar color="seondary" dark expand="md">
-        <img
-          src={Logo}
-          alt=""
-        />
         <Image
           src={LogoSvg}
           alt="Open"
-          width={65}
-          height={65} />
+          width={55}
+          height={55} />
 
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse className="nav-bar-align" id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
