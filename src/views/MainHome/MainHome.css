@@ -1,6 +1,16 @@
-.Main-App{
-    justify-items: center;
-    justify-content: space-around;
-    padding-left: 250px;
-    padding-right: 250px;
+@media screen and (min-width: 800px) {
+    .Main-App{
+        justify-items: center;
+        justify-content: space-around;
+        padding-left: 250px;
+        padding-right: 250px;
+    }   
 }
+@media only screen and (min-width: 1025px) {
+    .Main-App{
+        justify-items: center;
+        justify-content: space-around;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+} 
