@@ -24,7 +24,7 @@ const CarouselPage = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://cdn.pixabay.com/photo/2019/07/17/11/02/neon-sign-4343663_1280.jpg"
+                src="https://www.hungryforever.com/wp-content/uploads/2015/04/Featured-image-masala-dosa-recipe.jpg"
                 alt="First slide"
               />
               <MDBMask overlay="black-light" />
