@@ -5,26 +5,24 @@ const Categories = () => {
     return (
         <section className="text-center my-5">
             <h2 className="h1-responsive font-weight-bold text-center my-5">
-                Our bestsellers
+            Categories
       </h2>
             <p className="grey-text text-center w-responsive mx-auto mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-                error amet numquam iure provident voluptate esse quasi, veritatis
-                totam voluptas nostrum quisquam eum porro a pariatur veniam.
+               " One Cannot Think Well, Love Well, Sleep Well, If One Has Not Dined Well."
       </p>
             <MDBRow>
                 <MDBCol lg="3" md="6" className="mb-lg-0 mb-4">
                     <MDBCard collection className="z-depth-1-half">
                         <div className="view zoom">
                             <img
-                                src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/5.jpg"
+                                src="https://images.unsplash.com/photo-1587678711204-ca6d3d2f1f3b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8c291dGglMjBpbmRpYW4lMjBicmVha2Zhc3R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                                 className="img-fluid"
                                 alt=""
                             />
                             <div className="stripe dark">
                                 <a href="#!">
                                     <p>
-                                        Red trousers <MDBIcon icon="angle-right" />
+                                        Breakfast <MDBIcon icon="angle-right" />
                                     </p>
                                 </a>
                             </div>
@@ -35,14 +33,14 @@ const Categories = () => {
                     <MDBCard collection className="z-depth-1-half">
                         <div className="view zoom">
                             <img
-                                src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/8.jpg"
+                                src="https://images.unsplash.com/photo-1552255278-580ab2ce246b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTc5fHxsdW5jaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                                 className="img-fluid"
                                 alt=""
                             />
                             <div className="stripe dark">
                                 <a href="#!">
                                     <p>
-                                        Sweatshirt <MDBIcon icon="angle-right" />
+                                      Lunch <MDBIcon icon="angle-right" />
                                     </p>
                                 </a>
                             </div>
@@ -53,14 +51,14 @@ const Categories = () => {
                     <MDBCard collection className="z-depth-1-half">
                         <div className="view zoom">
                             <img
-                                src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/9.jpg"
+                                src="https://images.unsplash.com/photo-1588101546613-0f5b02a473fa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzN8fHNvdXRoJTIwaW5kaWFuJTIwbHVuY2h8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                                 className="img-fluid"
                                 alt=""
                             />
                             <div className="stripe dark">
                                 <a href="#!">
                                     <p>
-                                        Accessories <MDBIcon icon="angle-right" />
+                                       Snacks <MDBIcon icon="angle-right" />
                                     </p>
                                 </a>
                             </div>
@@ -71,14 +69,14 @@ const Categories = () => {
                     <MDBCard collection className="z-depth-1-half">
                         <div className="view zoom">
                             <img
-                                src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/7.jpg"
+                                src="https://images.unsplash.com/photo-1583522478890-0a87db51ff02?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fGJldmVyYWdlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                                 className="img-fluid"
                                 alt=""
                             />
                             <div className="stripe dark">
                                 <a href="#!">
                                     <p>
-                                        Sweatshirt <MDBIcon icon="angle-right" />
+                                       Beverage <MDBIcon icon="angle-right" />
                                     </p>
                                 </a>
                             </div>
