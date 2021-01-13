@@ -74,12 +74,12 @@ const BlogSection = () => {
               <strong>Hygiene</strong>
             </h3>
             <p>
-            Cleaniness and order are not matter of instict; they are matters of education,and like most great things, you muxt cultivate a taste for them.
+            Cleaniness and order are not matter of instict; they are matters of education,and like most great things, you must cultivate a taste for them.
             </p>
             <p>
-              by
+              -
               <a href="#!">
-                <strong>Benjamin Disraeli</strong>
+                <strong>  Benjamin Disraeli  </strong>
               </a>
             </p>
             {/* <MDBBtn
