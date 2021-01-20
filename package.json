@@ -1,5 +1,5 @@
 {
-  "name": "open-react-template",
+  "name": "jit-canteen-landing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,5 +39,13 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "guppy": {
+    "id": "eed1c1f0-57c5-11eb-acd6-133efb8b7fd8",
+    "name": "JIT-Canteen-Landing",
+    "type": "create-react-app",
+    "color": "#C51162",
+    "icon": "./static/media/icon_blueorange.174c0078.jpg",
+    "createdAt": 1610779319184
+  }
 }
