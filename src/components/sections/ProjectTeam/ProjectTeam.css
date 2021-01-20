@@ -7,6 +7,75 @@
 .deep {
   color: #000000 !important;
 }
-.icon-color {
-  color: aqua !important;
+.icon-color1 {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 30px;
+  margin-left: 10px;
+  margin-top: 0px;
+  padding-top: 8%;
+  transition: all 0.2s ease-in-out;
+}
+.icon-color2 {
+  color: #0e76a8;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 30px;
+  margin-left: 10px;
+  margin-top: 0px;
+  padding-top: 8%;
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-color3 {
+  color: rgb(0, 0, 0) !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 30px;
+  margin-left: 10px;
+  margin-top: 0px;
+  padding-top: 8%;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icons-links {
+  overflow: auto;
+}
+.social-icons-links li {
+  list-style-type: none;
+  float: left;
+  /* display: flex !important; */
+  text-align: center;
+}
+
+ul li a i:hover {
+  opacity: 0.2;
 }

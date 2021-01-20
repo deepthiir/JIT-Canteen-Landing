@@ -8,7 +8,7 @@ const FooterX = () => {
     <MDBFooter color="secondary" className="font-small pt-4 mt-4">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
-          <MDBCol md="4">
+          <MDBCol md="6">
             <Image
               src={LogoSvg}
               alt="Open"
@@ -19,24 +19,8 @@ const FooterX = () => {
               CMA is designed for the activities of the canteen & to maintain other details.
             </p>
           </MDBCol>
-          <MDBCol md="4">
-            <h5 className="title">CMA</h5>
-            <ul>
-              <li className="list-unstyled">
-                <a href="#!">Home</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">JIT</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">GitHub-Landing</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">GitHub-Admin</a>
-              </li>
-            </ul>
-          </MDBCol>
-          <MDBCol md="4">
+          
+          <MDBCol md="6">
             <h5 className="title">CMA</h5>
             <ul>
               <li className="list-unstyled">
