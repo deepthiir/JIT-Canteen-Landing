@@ -32,15 +32,15 @@ render() {
         <MDBCollapse className="nav-bar-align" id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left className="nav-bar-items-align">
             <MDBNavItem style={{ paddingTop: "10px", paddingLeft:"30px" }} active>
-              <MDBNavLink to="#!">Home</MDBNavLink>
+              <MDBNavLink to="/mainhome">Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem style={{paddingTop:"10px"}}>
-              <MDBNavLink to="#!">JIT</MDBNavLink>
+              <MDBDropdownItem href="https://jyothyit.ac.in">JIT</MDBDropdownItem>
             </MDBNavItem>
-            <MDBNavItem style={{ paddingTop: "10px" }}>
+            {/* <MDBNavItem style={{ paddingTop: "10px" }}>
               <MDBNavLink  to="#!">Categories</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem style={{ paddingTop: "10px" }}>
+            </MDBNavItem> */}
+            {/* <MDBNavItem style={{ paddingTop: "10px" }}>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
                   <div className="d-none d-md-inline">Dropdown</div>
@@ -52,7 +52,7 @@ render() {
                   <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
-            </MDBNavItem>
+            </MDBNavItem> */}
             <MDBNavItem>
               <MDBFormInline waves>
                 <div className="md-form my-0">
@@ -79,9 +79,9 @@ render() {
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
+              {/* <MDBNavLink className="waves-effect waves-light" to="#!">
                 <MDBIcon far icon="heart" />
-              </MDBNavLink>
+              </MDBNavLink> */}
             </MDBNavItem>
             <MDBNavItem style={{paddingRight: "30px" }}>
               <MDBDropdown>
@@ -90,8 +90,8 @@ render() {
                 </MDBDropdownToggle>
                 <MDBDropdownMenu className="dropdown-default">
                   <MDBDropdownItem href="#!"><MDBIcon far icon="user-circle" /> My Profile</MDBDropdownItem>
-                  <MDBDropdownItem href="#!"><MDBIcon icon="sort" /> Orders</MDBDropdownItem>
-                  <MDBDropdownItem href="#!"><MDBIcon far icon="heart" /> Wishlist</MDBDropdownItem>
+                  <MDBDropdownItem href="/cart"><MDBIcon icon="sort" /> Orders</MDBDropdownItem>
+
                   <MDBDropdownItem onClick={() => { auth.signOut() }}><MDBIcon icon="sign-out-alt" />Sign Out</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>

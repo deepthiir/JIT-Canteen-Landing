@@ -1,7 +1,46 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { MDBCard, MDBCardTitle, MDBRow, MDBCol } from 'mdbreact';
+import {firestore} from '../../../services/firebase'
 
 const FeaturedCat = () => {
+
+    const [food,setFood] = useState(null);
+    const [snacks, setSnacks] = useState(null);
+    const [beverage, setBeverage] = useState(null);
+
+    useEffect(() => {
+        let isMounted = true;
+        const fetchData = async() => {
+            firestore.collection("dailySpecials").doc("U9N1ih2bOOGVyWd4b9kM").onSnapshot((snapshot) => {
+                if(snapshot.exists){
+                    if(isMounted){
+                        setFood(snapshot.data())
+                    }
+                }
+            })
+            firestore.collection("dailySpecials").doc("CdcksISGLgQfAMhDD8xF").onSnapshot((snapshot) => {
+                if (snapshot.exists) {
+                    if (isMounted) {
+                        setSnacks(snapshot.data())
+                    }
+                }
+            })
+            firestore.collection("dailySpecials").doc("zglHS1BZCTrJEoz51r0P").onSnapshot((snapshot) => {
+                if (snapshot.exists) {
+                    if (isMounted) {
+                        setBeverage(snapshot.data())
+                    }
+                }
+            })
+        }
+
+        fetchData();
+        
+        return () => {
+            isMounted = false
+        }
+    }, [])
+
     return (
         <MDBRow>
             <MDBCol md=''>
@@ -16,16 +55,18 @@ const FeaturedCat = () => {
                         <div>
                             <h5 className='pink-text'>
                                  Food
-              </h5>
+                            </h5>
                             <MDBCardTitle tag='h3' className='pt-2'>
-                                <strong>This is card title</strong>
+                                {food !== null ? <strong>{food.foodItem}</strong> : <strong>Something special</strong>}
                             </MDBCardTitle>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit
-                                officia accusamus minus error nisi architecto nulla ipsum
-                                dignissimos. Odit sed qui, dolorum!
-              </p>
+                            {
+                                food !== null ? <p>
+                                    {food.description}
+                                </p> : <p>Cooking Up!!!</p>
+                            }
+                            {
+                                food !== null ? <p>Price: ₹{food.price}</p> : null
+                            }
                             
                         </div>
                     </div>
@@ -46,14 +87,16 @@ const FeaturedCat = () => {
                                  Snacks
               </h5>
                             <MDBCardTitle tag='h3' className='pt-2'>
-                                <strong>This is card title</strong>
+                                {snacks !== null ? <strong>{snacks.foodItem}</strong> : <strong>Something special</strong>}
                             </MDBCardTitle>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit
-                                officia accusamus minus error nisi architecto nulla ipsum
-                                dignissimos. Odit sed qui, dolorum!
-              </p>
+                            {
+                                snacks !== null ? <p>
+                                    {snacks.description}
+                                </p> : <p>Cooking Up!!!</p>
+                            }
+                            {
+                                snacks !== null ? <p>Price: ₹{snacks.price}</p> : null
+                            }
                            
                         </div>
                     </div>
@@ -74,14 +117,16 @@ const FeaturedCat = () => {
                                  Beverage
               </h5>
                             <MDBCardTitle tag='h3' className='pt-2'>
-                                <strong>This is card title</strong>
+                                {beverage !== null ? <strong>{beverage.foodItem}</strong> : <strong>Something special</strong>}
                             </MDBCardTitle>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit
-                                officia accusamus minus error nisi architecto nulla ipsum
-                                dignissimos. Odit sed qui, dolorum!
-              </p>
+                            {
+                                beverage !== null ? <p>
+                                    {beverage.description}
+              </p> : <p>Cooking Up!!!</p>
+                            }
+                            {
+                                beverage !== null ? <p>Price: ₹{beverage.price}</p> : null
+                            }
                             {/* <MDBBtn color='pink'>
                                 <MDBIcon icon='clone left' /> View project
               </MDBBtn> */}

@@ -16,29 +16,11 @@ class ShoppingCart extends Component {
     data: [
       {
         src:
-          "https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/13.jpg",
-        title: "iPhone",
-        subTitle: "Apple",
+          "https://images.unsplash.com/photo-1561047029-3000c68339ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y29mZmVlJTIwY3VwfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80",
+        title: "Coffee",
+        subTitle: "Beverage",
         color: "White",
-        price: "800",
-        qty: "2",
-      },
-      {
-        src:
-          "https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/6.jpg",
-        title: "Headphones",
-        subTitle: "Sony",
-        color: "Red",
-        price: "200",
-        qty: "2",
-      },
-      {
-        src:
-          "https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/1.jpg",
-        title: "iPad Pro",
-        subTitle: "Apple",
-        color: "Gold",
-        price: "600",
+        price: "10",
         qty: "1",
       },
     ],
@@ -82,7 +64,7 @@ class ShoppingCart extends Component {
       return rows.push({
         img: <img src={row.src} alt="" className="img-fluid z-depth-0" />,
         product: [
-          <h5 className="mt-3" key={new Date().getDate + 1}>
+          <h5 className="mt-3" key={new Date().getDate + 1} style={{color:"black"}}>
             <strong>{row.title}</strong>
           </h5>,
           <p key={new Date().getDate} className="text-muted">
@@ -90,7 +72,7 @@ class ShoppingCart extends Component {
           </p>,
         ],
         color: row.color,
-        price: `$${row.price}`,
+        price: `₹${row.price}`,
         qty: (
           <MDBInput
             type="number"
@@ -100,14 +82,14 @@ class ShoppingCart extends Component {
           />
         ),
         amount: <strong>${row.qty * row.price}</strong>,
-        button: (
-          <MDBTooltip placement="top">
-            <MDBBtn color="primary" size="sm">
-              X
-            </MDBBtn>
-            <div>Remove item</div>
-          </MDBTooltip>
-        ),
+        // button: (
+        //   <MDBTooltip placement="top">
+        //     <MDBBtn color="primary" size="sm">
+        //       X
+        //     </MDBBtn>
+        //     <div>Remove item</div>
+        //   </MDBTooltip>
+        // ),
       });
     });
 
@@ -123,6 +105,7 @@ class ShoppingCart extends Component {
               />
               <MDBTableBody rows={rows} />
             </MDBTable>
+            <MDBBtn color="primary">Checkout</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBRow>

@@ -1,5 +1,5 @@
 @media screen and (min-width: 800px) {
-    .Cart-App{
+    .Main-App{
         justify-items: center;
         justify-content: space-around;
         padding-left: 250px;
@@ -7,10 +7,10 @@
     }   
 }
 @media only screen and (min-width: 1025px) {
-    .Cart-App{
+    .Main-App{
         justify-items: center;
         justify-content: space-around;
         padding-left: 250px;
         padding-right: 250px;
     }
-}
+} 

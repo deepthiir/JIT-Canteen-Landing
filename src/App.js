@@ -15,6 +15,7 @@ import SignInPage from './views/SignIn/SignInPage';
 import SignUpPage from './views/SignUp/SignUpPage';
 import MainHome from './views/MainHome/MainHome';
 import CartPage from './views/CartPage/CartPage';
+import ProductsMain from './views/Products/ProductsMain';
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -71,6 +72,8 @@ function App() {
           <Route exact path="/signup" render={() => authenticated ? <Redirect to='/mainhome'></Redirect> : <SignUpPage></SignUpPage>}></Route>
 
           <Route exact path="/mainhome" render={() => authenticated ? <MainHome></MainHome> : <Redirect to = '/signin'></Redirect>}></Route>
+
+          <Route exact path="/products" render={() => <ProductsMain></ProductsMain>}></Route>
 
           <Route exact path="/cart" render={() => <CartPage></CartPage>}></Route>
 

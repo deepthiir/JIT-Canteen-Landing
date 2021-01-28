@@ -20,7 +20,7 @@ const Categories = () => {
                                 alt=""
                             />
                             <div className="stripe dark">
-                                <a href="#!">
+                                <a href="/products">
                                     <p>
                                         Breakfast <MDBIcon icon="angle-right" />
                                     </p>
