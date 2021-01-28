@@ -121,7 +121,7 @@ const BlogSection = () => {
             <a href="#!" className="indigo-text">
               <h6 className="font-weight-bold mb-3">
                 <MDBIcon icon="suitcase" className="pr-2" />
-                Food
+                Life
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">

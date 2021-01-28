@@ -16,9 +16,6 @@ const ProjectTeam = () => {
       <section className="text-center my-5">
         <h2 className="h1-responsive font-weight-bold my-5">Project Team</h2>
         <p className="dark-grey-text w-responsive mx-auto mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
-          amet numquam iure provident voluptate esse quasi, veritatis totam
-          voluptas nostrum quisquam eum porro a pariatur veniam.
         </p>
         <MDBRow>
           <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
@@ -36,14 +33,14 @@ const ProjectTeam = () => {
                 <hr />
                 {/* <p className="dark-grey-text mt-4">
                   <MDBIcon icon="quote-left" className="pr-2" />
-                  Lorem ipsum dolor sit amet eos adipisci, consectetur
-                  adipisicing elit.
                 </p> */}
-                <a href="https://instagram.com/adiiikris" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram icon-color" /></a>
-                <br />
-                <a href="https://instagram.com/adiiikris"><i className="fab fa-instagram icon-color" /></a>
-                <br />
-                <a href="https://instagram.com/adiiikris"><i className="fab fa-instagram icon-color" /></a>
+                <ul class="social-icons-links">
+                <li><a href="https://instagram.com/adiiikris" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram icon-color1" /></a></li>
+                
+                <li><a href="https://www.linkedin.com/in/adiiikris/" target ="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin icon-color2" /></a></li>
+                
+                <li><a href="https://instagram.com/adiiikris" target ="_blank" rel="noopener noreferrer"><i className="fab fa-github icon-color3" /></a></li>
+                </ul>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -62,15 +59,16 @@ const ProjectTeam = () => {
                 <hr />
                 {/* <p className="dark-grey-text mt-4">
                   <i className="fa fa-quote-left pr-2" />
-                  Neque cupiditate assumenda in maiores repudiandae mollitia
-                  architecto.
                 </p> */}
-                <a href="https://instagram.com/nivedaparam"><i className="fab fa-instagram icon-color" /></a>
-                <br />
-                <a href="https://instagram.com/nivedaparam"><i className="fab fa-instagram icon-color" /></a>
-                <br />
-                <a href="https://instagram.com/nivedaparam"><i className="fab fa-instagram icon-color" /></a>
-              </MDBCardBody>
+                 <ul class="social-icons-links">
+               <li> <a href="https://instagram.com/nivedaparam" target ="_blank" rel="noopener noreferrer"><i className="fab fa-instagram icon-color1" /></a></li>
+                
+               <li><a href="https://www.linkedin.com/in/nivedaparam/" target ="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin icon-color2" /></a></li>
+                
+               <li><a href="https://instagram.com/nivedaparam" target ="_blank" rel="noopener noreferrer"><i className="fab fa-github icon-color3" /></a></li>
+                </ul>
+
+                </MDBCardBody>
             </MDBCard>
           </MDBCol>
           <MDBCol lg="4" md="6" className="mb-lg-0 mb-4">
@@ -88,14 +86,15 @@ const ProjectTeam = () => {
                 <hr />
                 {/* <p className="dark-grey-text mt-4">
                   <i className="fa fa-quote-left pr-2" />
-                  Delectus impedit saepe officiis ab aliquam repellat rem unde
-                  ducimus.
                 </p> */}
-                <a href="https://instagram.com/deepthir_164"><i className="fab fa-instagram icon-color" /></a>
-                <br />
-                <a href="https://instagram.com/deepthir_164"><i className="fab fa-instagram icon-color" /></a>
-                <br />
-                <a href="https://instagram.com/deepthir_164"><i className="fab fa-instagram icon-color" /></a>
+                <ul class="social-icons-links">
+                <li><a href="https://www.instagram.com/deepthi_164/" target ="_blank" rel="noopener noreferrer"><i className="fab fa-instagram icon-color1" /></a></li>
+                
+                <li><a href="https://www.linkedin.com/in/deepthiravichandra/" target ="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin icon-color2" /></a></li>
+                
+                <li><a href="https://github.com/deepthiir" target ="_blank" rel="noopener noreferrer"><i className="fab fa-github icon-color3" /></a></li>
+
+                </ul>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
