@@ -82,14 +82,6 @@ class ShoppingCart extends Component {
           />
         ),
         amount: <strong>${row.qty * row.price}</strong>,
-        // button: (
-        //   <MDBTooltip placement="top">
-        //     <MDBBtn color="primary" size="sm">
-        //       X
-        //     </MDBBtn>
-        //     <div>Remove item</div>
-        //   </MDBTooltip>
-        // ),
       });
     });
 
